@@ -61,8 +61,11 @@ export default function App() {
   }, [])
 
   return (
+    
     <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-lavender-100 flex flex-col items-center justify-center p-4 relative overflow-hidden">
       {/* Elementos decorativos */}
+      <input value={name} onChange={(e) => setName(e.target.value)} />
+
       <div className="absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden">
         <div className="absolute top-10 left-10 text-pink-200 animate-pulse">
           <FlowerIcon size={30} />
