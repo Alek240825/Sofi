@@ -76,7 +76,6 @@ export default function App() {
         <div className="absolute bottom-10 right-10 text-purple-200 animate-pulse" style={{ animationDelay: "1.5s" }}>
           <FlowerIcon size={26} />
         </div>
-        <input value={name} onChange={(e) => setName(e.target.value)} />
       </div>
 
       {/* Corazones flotantes de fondo */}
